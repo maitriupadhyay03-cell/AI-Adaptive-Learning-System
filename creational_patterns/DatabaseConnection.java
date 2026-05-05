@@ -1,4 +1,4 @@
-package singleton;
+package abstract_factory;
 
 public class DatabaseConnection {
     private static DatabaseConnection instance;

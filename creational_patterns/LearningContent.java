@@ -1,4 +1,4 @@
-package builder;
+package abstract_factory;
 
 public class LearningContent {
     private String title;
@@ -12,7 +12,7 @@ public class LearningContent {
     }
 
     public static class Builder {
-        private String title;
+        private final String title;
         private boolean audio;
         private boolean video;
 

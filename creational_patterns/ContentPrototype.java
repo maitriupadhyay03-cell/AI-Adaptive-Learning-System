@@ -1,7 +1,7 @@
-package prototype;
+package abstract_factory;
 
 public class ContentPrototype implements Cloneable {
-    private String title;
+    private final String title;
 
     public ContentPrototype(String title) {
         this.title = title;

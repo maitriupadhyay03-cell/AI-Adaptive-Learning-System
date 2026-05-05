@@ -1,3 +1,8 @@
+import abstract_factory.DatabaseConnection;
+import org.junit.Test;
+
+import static org.testng.AssertJUnit.assertSame;
+
 @Test
 public void testSingleton() {
     DatabaseConnection db1 = DatabaseConnection.getInstance();
@@ -5,3 +10,8 @@ public void testSingleton() {
 
     assertSame(db1, db2);
 }
+
+void main() {
+    testSingleton();
+}
+

@@ -1,0 +1,15 @@
+package abstract_factory;
+
+import java.util.List;
+import java.util.Optional;
+
+public interface Repository<T, ID> {
+
+    void save(T entity);              // Create / Update
+
+    Optional<T> findById(ID id);      // Read (single)
+
+    List<T> findAll();                // Read (all)
+
+    void delete(ID id);               // Delete
+}

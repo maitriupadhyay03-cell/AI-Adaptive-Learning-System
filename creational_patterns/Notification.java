@@ -1,4 +1,4 @@
-package factory_method;
+package abstract_factory;
 
 public interface Notification {
     void send();

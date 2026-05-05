@@ -121,6 +121,16 @@ with All Creational Patterns
 - Builder used for flexible content creation
 - Singleton ensures one DB connection
 - Prototype reduces object creation cost
+
+### CHANGELOG
+- Implemented core classes (User, Student, Content)
+- Added all creational patterns
+- Added unit tests for all patterns
+- Fixed Singleton thread safety
+- Linked issues to commits
+
+![Demo ](/screenshot/assignment10.png)
+
 ## Traceability Across Assignments
 
 | Phase | Artifact | Purpose |
