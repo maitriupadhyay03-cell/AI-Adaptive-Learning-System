@@ -102,6 +102,25 @@ This results in a more structured and efficient Agile process.
 - [Domain Model](/Domain%20Modeling%20and%20Class%20Diagram%20Development/domain_model.md)
 - [Class Diagram](/Domain%20Modeling%20and%20Class%20Diagram%20Development/class_diagram.md)
 - [Reflection](/Domain%20Modeling%20and%20Class%20Diagram%20Development/reflection)
+
+## From Class Diagrams to Code
+with All Creational Patterns
+
+### Creational Patterns Used
+
+| Pattern | Purpose |
+|--------|--------|
+| Simple Factory | Centralized content creation |
+| Factory Method | Notification creation |
+| Abstract Factory | Cross-platform UI |
+| Builder | Complex content construction |
+| Prototype | Efficient cloning |
+| Singleton | Database connection |
+
+### Design Decisions
+- Builder used for flexible content creation
+- Singleton ensures one DB connection
+- Prototype reduces object creation cost
 ## Traceability Across Assignments
 
 | Phase | Artifact | Purpose |
