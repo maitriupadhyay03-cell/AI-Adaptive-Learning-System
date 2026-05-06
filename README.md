@@ -131,17 +131,35 @@ with All Creational Patterns
 
 ![Demo ](/screenshot/assignment10.png)
 
+## Implementing a Persistence Repository Layer
+
+### Repository Layer Design
+
+The repository layer abstracts data storage using a generic interface:
+
+- Repository<T, ID> provides CRUD operations
+- InMemoryStudentRepository uses HashMap for fast testing
+- RepositoryFactory enables switching between storage types
+- Future database implementation is supported via stub classes
+
+This design ensures:
+- Separation of concerns
+- Scalability
+- Testability
+  ![Demo ](/screenshot/assigment11.png)
 ## Traceability Across Assignments
 
-| Phase | Artifact | Purpose |
-|------|--------|--------|
-| Specification | Assignment 3 |system specitfication and architecture design |
-| Requirements | Assignment 4 | Defines system functionality |
-| Analysis | Assignment 5 | Models user interactions |
-| Agile Planning | Assignment 6 | Breaks system into tasks |
-| Workflow | Assignment 7 | Tracks development progress |
-| Behavior Modeling | Assignment 8 | Defines system workflows |
-| Structure Modeling | Assignment 9 | Defines system architecture |
+| Phase | Artifact      | Purpose                                       |
+|------|---------------|-----------------------------------------------|
+| Specification | Assignment 3  | system specitfication and architecture design |
+| Requirements | Assignment 4  | Defines system functionality                  |
+| Analysis | Assignment 5  | Models user interactions                      |
+| Agile Planning | Assignment 6  | Breaks system into tasks                      |
+| Workflow | Assignment 7  | Tracks development progress                   |
+| Behavior Modeling | Assignment 8  | Defines system workflows                      |
+| Structure Modeling | Assignment 9  | Defines system architecture                   |
+| Design Decisions | Assignment 10 | Implementation of design pattern              | 
+| Repository Layer Design | Assignment 11 | creation of CRUID                             |
 ## Technology Stack (Planned)
 - Frontend: React.js
 - Backend: Node.js
