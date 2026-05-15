@@ -1,14 +1,17 @@
 package com.aiadaptive.repositories;
 
+import com.aiadaptive.domain.Student;
+
 import java.util.*;
 
 public interface Repository<T, ID> {
 
-    void save(T entity);                 // Create / Update
+        T save(T entity);  //  FIXED (returns T)
 
-    Optional<T> findById(ID id);         // Read
+        Optional<T> findById(ID id);
 
-    List<T> findAll();                   // Read All
+        List<T> findAll();
 
-    void delete(ID id);                  // Delete
-}
+        void delete(ID id);
+    }
+

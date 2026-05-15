@@ -2,7 +2,7 @@ package com.aiadaptive.domain;
 
 public class Student {
 
-    private String id;
+    private final String id;
     private String name;
 
     public Student(String id, String name) {

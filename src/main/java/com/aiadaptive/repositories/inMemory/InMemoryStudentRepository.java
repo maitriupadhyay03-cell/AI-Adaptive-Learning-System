@@ -2,16 +2,19 @@ package com.aiadaptive.repositories.inMemory;
 
 import com.aiadaptive.domain.Student;
 import com.aiadaptive.repositories.StudentRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
+@Repository
 public class InMemoryStudentRepository implements StudentRepository {
 
     private final Map<String, Student> storage = new HashMap<>();
 
     @Override
-    public void save(Student student) {
+    public Student save(Student student) {
         storage.put(student.getId(), student);
+        return student;
     }
 
     @Override

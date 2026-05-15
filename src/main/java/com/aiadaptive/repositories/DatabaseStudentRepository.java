@@ -7,8 +7,9 @@ import java.util.*;
 public class DatabaseStudentRepository implements StudentRepository {
 
     @Override
-    public void save(Student student) {
+    public Student save(Student student) {
         // TODO: Save to database
+        return null;
     }
 
     @Override
