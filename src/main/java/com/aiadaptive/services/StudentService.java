@@ -4,6 +4,8 @@ import com.aiadaptive.domain.Student;
 import com.aiadaptive.repositories.StudentRepository;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class StudentService {
 
@@ -21,4 +23,9 @@ public class StudentService {
 
         return repo.save(student);
     }
+
+
+    public List<Student> getAllStudents() {
+        return repo.findAll();
+        }
 }

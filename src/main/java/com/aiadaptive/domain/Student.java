@@ -1,8 +1,13 @@
 package com.aiadaptive.domain;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
 public class Student {
 
     private final String id;
+    @Setter
     private String name;
 
     public Student(String id, String name) {
@@ -10,10 +15,4 @@ public class Student {
         this.name = name;
     }
 
-    public String getId() { return id; }
-    public String getName() { return name; }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 }
