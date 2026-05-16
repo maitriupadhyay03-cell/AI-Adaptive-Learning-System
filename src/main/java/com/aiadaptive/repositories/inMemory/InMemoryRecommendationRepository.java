@@ -8,6 +8,10 @@ import com.aiadaptive.repositories.RecommendationRepository;
 
 import java.util.*;
 
+import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
+@Repository
+
 public class InMemoryRecommendationRepository implements RecommendationRepository {
 
     private final Map<String, Recommendation> storage = new HashMap<>();

@@ -6,7 +6,8 @@ import com.aiadaptive.domain.Recommendation;
 import com.aiadaptive.repositories.RecommendationRepository;
 
 import java.util.List;
-
+import org.springframework.stereotype.Service;
+@Service
 public class RecommendationService {
 
     private final RecommendationRepository repo;

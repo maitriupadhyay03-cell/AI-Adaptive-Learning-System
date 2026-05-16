@@ -1,12 +1,13 @@
 package com.aiadaptive.services;
 
-
+import org.springframework.stereotype.Service;
 
 import com.aiadaptive.domain.Content;
 import com.aiadaptive.repositories.ContentRepository;
 
 import java.util.List;
 
+@Service
 public class ContentService {
 
     private final ContentRepository contentRepo;

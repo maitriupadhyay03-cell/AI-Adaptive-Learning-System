@@ -7,6 +7,9 @@ import com.aiadaptive.repositories.ContentRepository;
 
 import java.util.*;
 
+import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
+@Repository
 
 public class InMemoryContentRepository implements ContentRepository {
 
