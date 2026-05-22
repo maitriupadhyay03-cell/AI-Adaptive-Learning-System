@@ -159,8 +159,28 @@ This design ensures:
 - ![Demo ](/screenshot/swaggerRecommendation.png)**
 - ![Demo ](/screenshot/SwaggerStudent.png)**
 - ![Demo ](/screenshot/Swagger1.png)**
-  **
-## Traceability Across Assignments
+
+
+# CI/CD Pipeline
+
+This project uses GitHub Actions for Continuous Integration and Continuous Deployment (CI/CD).
+
+## Pipeline Features
+
+- Automatically builds the project on every push
+- Runs all unit and integration tests
+- Blocks pull request merges if tests fail
+- Generates a JAR artifact when merged into `main`
+
+
+### Branch Protection Setup
+![Demo ](/screenshot/assigment%2013/branch1.png)
+![Demo ](/screenshot/assigment%2013/branch2.png)
+![Demo ](/screenshot/assigment%2013/branch3.png)
+![Demo ](/screenshot/assigment%2013/branch4.png)
+![Demo ](/screenshot/assigment%2013/branch5.png)
+![Demo ](/screenshot/assigment%2013/branch6.png)
+
 
 | Phase | Artifact      | Purpose                                       |
 |------|---------------|-----------------------------------------------|
