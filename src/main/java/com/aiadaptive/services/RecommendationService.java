@@ -4,9 +4,10 @@ package com.aiadaptive.services;
 
 import com.aiadaptive.domain.Recommendation;
 import com.aiadaptive.repositories.RecommendationRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-import org.springframework.stereotype.Service;
+
 @Service
 public class RecommendationService {
 
