@@ -15,12 +15,12 @@ https://github.com/RodrigueNdzana/AI-Adaptive-Learning-System
 # Peer Engagement Statistics
 
 | Metric | Count |
-|----------|----------|
-| Stars | ____ |
-| Forks | ____ |
-| Watchers | ____ |
-| Pull Requests | ____ |
-| Reviews Received | ____ |
+|----------|-------|
+| Stars | 3     |
+| Forks | 3     |
+| Watchers | 0     |
+| Pull Requests | 0     |
+| Reviews Received | 0     |
 
 ---
 
