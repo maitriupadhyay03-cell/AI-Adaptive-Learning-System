@@ -321,11 +321,5 @@ Workflow includes:
 
 ---
 
-## License
-
-This project is licensed under the MIT License (or specify your license here).
-
-
-
 ## Author
 Rodrigue Ndzana Ngonga Beaubane-- 219384096
