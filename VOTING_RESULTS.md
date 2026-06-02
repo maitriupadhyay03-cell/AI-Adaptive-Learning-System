@@ -16,8 +16,8 @@ https://github.com/RodrigueNdzana/AI-Adaptive-Learning-System
 
 | Metric | Count |
 |----------|-------|
-| Stars | 3     |
-| Forks | 3     |
+| Stars | 27    |
+| Forks | 31    |
 | Watchers | 0     |
 | Pull Requests | 0     |
 | Reviews Received | 0     |
